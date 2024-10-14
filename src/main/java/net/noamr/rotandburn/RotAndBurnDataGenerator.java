@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.noamr.rotandburn.datagen.ModBlockTagProvider;
 import net.noamr.rotandburn.datagen.ModItemTagProvider;
 import net.noamr.rotandburn.datagen.ModLootTableProvider;
+import net.noamr.rotandburn.datagen.ModModelProvider;
 
 public class RotAndBurnDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class RotAndBurnDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
 	}
 }

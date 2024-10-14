@@ -32,6 +32,24 @@ public class ModBlocks {
         }});
     public static final Block YELLOW_EARTH = registerBlock("yellow_earth", new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.MUD).mapColor(MapColor.TERRACOTTA_YELLOW)));
 
+    public static final Block BURNT_WOOD_PLANKS = registerBlock("burnt_wood_planks", new Block(AbstractBlock.Settings.create().requiresTool().strength(2.0f).sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block BURNT_WOOD_STAIRS = registerBlock("burnt_wood_stairs", new StairsBlock(ModBlocks.BURNT_WOOD_PLANKS.getDefaultState(),
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block BURNT_WOOD_SLAB = registerBlock("burnt_wood_slab", new SlabBlock(
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+
+    public static final Block BURNT_WOOD_BUTTON = registerBlock("burnt_wood_button", new ButtonBlock(BlockSetType.OAK, 16,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK).noCollision()));
+    public static final Block BURNT_WOOD_PRESSURE_PLATE = registerBlock("burnt_wood_pressure_plate", new PressurePlateBlock(BlockSetType.OAK,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+
+    public static final Block BURNT_WOOD_FENCE = registerBlock("burnt_wood_fence", new FenceBlock(
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block BURNT_WOOD_FENCE_GATE = registerBlock("burnt_wood_fence_gate", new FenceGateBlock(WoodType.OAK,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_BLACK)));
+
+    public static final Block ASH_LAYER = registerBlock("ash_layer", new SnowBlock(AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.SAND).mapColor(MapColor.LIGHT_GRAY)));
+
     //Flowers:
     public static final Block WOOD_ANEMONE = registerBlock("wood_anemone", new CarpetFlowerBlock(StatusEffects.RESISTANCE, 20f, AbstractBlock.Settings.create().mapColor(MapColor.EMERALD_GREEN).noCollision().pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.GRASS)));
     public static final Block YELLOW_SWAN_ORCHID = registerBlock("yellow_swan_orchid", new VineBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).noCollision().pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.GRASS)));

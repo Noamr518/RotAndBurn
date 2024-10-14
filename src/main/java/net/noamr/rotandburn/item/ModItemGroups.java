@@ -48,9 +48,18 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SALT_BLOCK);
                         entries.add(ModBlocks.ASH_BLOCK);
+                        entries.add(ModBlocks.ASH_LAYER);
                         entries.add(ModBlocks.SHALE);
                         entries.add(ModBlocks.SHALE_FOSSIL);
                         entries.add(ModBlocks.YELLOW_EARTH);
+                        entries.add(ModBlocks.BURNT_WOOD_PLANKS);
+                        entries.add(ModBlocks.BURNT_WOOD_STAIRS);
+                        entries.add(ModBlocks.BURNT_WOOD_SLAB);
+                        entries.add(ModBlocks.BURNT_WOOD_FENCE);
+                        entries.add(ModBlocks.BURNT_WOOD_FENCE_GATE);
+                        entries.add(ModBlocks.BURNT_WOOD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BURNT_WOOD_BUTTON);
+
                     }).build());
 
     public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP, Identifier.of(RotAndBurn.MOD_ID, "rot_and_burn_food"),

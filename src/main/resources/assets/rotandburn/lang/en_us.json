@@ -26,6 +26,15 @@
   "block.rotandburn.thistle": "Thistle",
   "block.rotandburn.butterfly_milkweed": "Butterfly Milkweed",
   "block.rotandburn.blueberry_bush": "Blueberry Bush",
+  "block.rotandburn.burnt_wood_planks": "Burnt Wood Planks",
+  "block.rotandburn.burnt_wood_stairs": "Burnt Wood Stairs",
+  "block.rotandburn.burnt_wood_slab": "Burnt Wood Slab",
+  "block.rotandburn.burnt_wood_fence": "Burnt Wood Fence",
+  "block.rotandburn.burnt_wood_fence_gate": "Burnt Wood Fence Gate",
+  "block.rotandburn.burnt_wood_button": "Burnt Wood Button",
+  "block.rotandburn.burnt_wood_pressure_plate": "Burnt Wood Pressure Plate",
+  "block.rotandburn.ash_layer": "Ash Layer",
+
 
   "block.rotandburn.modeltest": "test model_001",
 

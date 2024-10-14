@@ -18,5 +18,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SHALE);
         addDrop(ModBlocks.THISTLE);
         addDrop(ModBlocks.INDIAN_PAINTBRUSH);
+
+        addDrop(ModBlocks.BURNT_WOOD_PLANKS);
+        addDrop(ModBlocks.BURNT_WOOD_STAIRS);
+        addDrop(ModBlocks.BURNT_WOOD_SLAB, slabDrops(ModBlocks.BURNT_WOOD_SLAB));
+        addDrop(ModBlocks.BURNT_WOOD_FENCE);
+        addDrop(ModBlocks.BURNT_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.BURNT_WOOD_BUTTON);
+        addDrop(ModBlocks.BURNT_WOOD_PRESSURE_PLATE);
+
+
     }
 }

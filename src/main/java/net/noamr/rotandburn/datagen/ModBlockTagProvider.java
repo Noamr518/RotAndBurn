@@ -26,6 +26,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.YELLOW_EARTH)
+                .add(ModBlocks.ASH_LAYER)
                 .add(ModBlocks.ASH_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.BASE_STONE_OVERWORLD)
@@ -53,5 +54,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CARDINAL_FLOWER)
                 .add(ModBlocks.GOLDENROD)
                 .add(ModBlocks.BUTTERFLY_MILKWEED);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.BURNT_WOOD_FENCE);
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.BURNT_WOOD_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.BURNT_WOOD_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.PLANKS).add(ModBlocks.BURNT_WOOD_PLANKS);
+        getOrCreateTagBuilder(BlockTags.BUTTONS).add(ModBlocks.BURNT_WOOD_BUTTON);
     }
 }
