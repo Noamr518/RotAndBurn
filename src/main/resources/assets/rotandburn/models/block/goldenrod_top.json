@@ -1,0 +1,8 @@
+{
+	"parent": "rotandburn:block/hex_flower_half",
+	"textures": {
+		"flower": "rotandburn:block/goldenrod_top",
+		"overlay": "rotandburn:block/goldenrod_overlay_top",
+		"particle": "rotandburn:item/goldenrod"
+	}
+}

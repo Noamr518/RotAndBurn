@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "rotandburn:block/goldenrod_bottom"
+    },
+    "half=upper": {
+      "model": "rotandburn:block/goldenrod_top"
+    }
+  }
+}

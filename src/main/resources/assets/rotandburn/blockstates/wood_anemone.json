@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      { "model": "rotandburn:block/wood_anemone", "x": 0, "y": 0, "weight": 3 },
+      { "model": "rotandburn:block/wood_anemone", "x": 0, "y": 90, "weight": 3 },
+      { "model": "rotandburn:block/wood_anemone", "x": 0, "y": 180, "weight": 3 },
+      { "model": "rotandburn:block/wood_anemone", "x": 0, "y": 270, "weight": 3 },
+
+      { "model": "rotandburn:block/wood_anemone0", "x": 0, "y": 0, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone0", "x": 0, "y": 90, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone0", "x": 0, "y": 180, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone0", "x": 0, "y": 270, "weight": 2 },
+
+      { "model": "rotandburn:block/wood_anemone1", "x": 0, "y": 0, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone1", "x": 0, "y": 90, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone1", "x": 0, "y": 180, "weight": 2 },
+      { "model": "rotandburn:block/wood_anemone1", "x": 0, "y": 270, "weight": 2 },
+
+      { "model": "rotandburn:block/wood_anemone2", "x": 0, "y": 0, "weight": 1 },
+      { "model": "rotandburn:block/wood_anemone2", "x": 0, "y": 90, "weight": 1 },
+      { "model": "rotandburn:block/wood_anemone2", "x": 0, "y": 180, "weight": 1 },
+      { "model": "rotandburn:block/wood_anemone2", "x": 0, "y": 270, "weight": 1 }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rotandburn",
+	"version": "Alpha 1.1.9",
+	"name": "Rot and Burn",
+	"description": "Mod that aims to make the minecraft world feel more lived in and dynamic",
+	"authors": [
+		"Noamr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rotandburn/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.noamr.rotandburn.RotAndBurn"
+		],
+		"fabric-datagen": [
+			"net.noamr.rotandburn.RotAndBurnDataGenerator"
+		],
+		"client": [
+			"net.noamr.rotandburn.RotAndBurnClient"
+		]
+	},
+	"mixins": [
+		"rotandburn.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "rotandburn:block/hex_flower_half",
+	"textures": {
+		"flower": "rotandburn:block/cardinal_flower_bottom",
+		"overlay": "rotandburn:block/cardinal_flower_overlay_bottom",
+		"particle": "rotandburn:item/cardinal_flower"
+	}
+}

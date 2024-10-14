@@ -1,0 +1,8 @@
+{
+	"parent": "rotandburn:block/hex_flower_half",
+	"textures": {
+		"flower": "rotandburn:block/butterfly_milkweed_top",
+		"overlay": "rotandburn:block/butterfly_milkweed_overlay_top",
+		"particle": "rotandburn:item/butterfly_milkweed"
+	}
+}

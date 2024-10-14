@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#s#",
+    "www"
+  ],
+  "key": {
+    "#": {
+      "item": "rotandburn:blueberry"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "rotandburn:blueberry_pie",
+    "count": 1
+  },
+  "show_notification": true
+}

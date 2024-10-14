@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      { "model": "rotandburn:block/thistle", "x": 0, "y": 0, "weight": 1 },
+      { "model": "rotandburn:block/thistle", "x": 0, "y": 90, "weight": 1 },
+      { "model": "rotandburn:block/thistle", "x": 0, "y": 180, "weight": 1 },
+      { "model": "rotandburn:block/thistle", "x": 0, "y": 270, "weight": 1 },
+      { "model": "rotandburn:block/thistle0", "x": 0, "y": 0, "weight": 2 },
+      { "model": "rotandburn:block/thistle0", "x": 0, "y": 90, "weight": 2 },
+      { "model": "rotandburn:block/thistle0", "x": 0, "y": 180, "weight": 2 },
+      { "model": "rotandburn:block/thistle0", "x": 0, "y": 270, "weight": 2 },
+      { "model": "rotandburn:block/thistle1", "weight": 1 }
+    ]
+  }
+}

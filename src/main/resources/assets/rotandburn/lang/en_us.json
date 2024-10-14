@@ -1,0 +1,42 @@
+{
+  "item.rotandburn.ash": "Ash",
+  "item.rotandburn.amethyst_dust": "Amethyst Dust",
+  "item.rotandburn.calcite_dust": "Calcite Dust",
+  "item.rotandburn.charcoal_dust": "Charcoal Dust",
+  "item.rotandburn.copper_oxide": "Copper Oxide",
+  "item.rotandburn.lapis_dust": "Lapis Dust",
+  "item.rotandburn.yellow_ochre": "Yellow Ochre",
+  "item.rotandburn.salt": "Salt",
+  "item.rotandburn.grass_seeds": "Grass Seeds",
+  "item.rotandburn.blueberry": "Blueberries",
+  "item.rotandburn.blueberry_pie": "Blueberry Pie",
+  "item.rotandburn.flame_paste": "Flame Paste",
+
+
+  "block.rotandburn.shale": "Shale",
+  "block.rotandburn.shale_fossil": "Shale Fossil",
+  "block.rotandburn.salt_block": "Salt Block",
+  "block.rotandburn.ash_block": "Ash Block",
+  "block.rotandburn.wood_anemone": "Wood Anemone",
+  "block.rotandburn.yellow_swan_orchid": "Yellow Swan Orchid",
+  "block.rotandburn.cardinal_flower": "Cardinal Flower",
+  "block.rotandburn.goldenrod": "Goldenrod",
+  "block.rotandburn.yellow_earth": "Yellow Earth",
+  "block.rotandburn.indian_paintbrush": "Indian Paintbrush",
+  "block.rotandburn.thistle": "Thistle",
+  "block.rotandburn.butterfly_milkweed": "Butterfly Milkweed",
+  "block.rotandburn.blueberry_bush": "Blueberry Bush",
+
+  "block.rotandburn.modeltest": "test model_001",
+
+  "itemgroup.rotandburn.rot_and_burn_plants": "Plants",
+  "itemgroup.rotandburn.rot_and_burn_ingredients": "Ingredients",
+  "itemgroup.rotandburn.rot_and_burn_blocks": "Blocks",
+  "itemgroup.rotandburn.rot_and_burn_food": "Food",
+
+  "tooltip.rotandburn.flame_paste.shift_down_line1": "Combine with light blocks(torches,",
+  "tooltip.rotandburn.flame_paste.shift_down_line2": "lanterns, campfires, candles) to",
+  "tooltip.rotandburn.flame_paste.shift_down_line3": "make them burn forever.",
+
+  "tooltip.rotandburn.flame_paste": "§l§b[SHIFT]"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "rotandburn:block/butterfly_milkweed_bottom"
+    },
+    "half=upper": {
+      "model": "rotandburn:block/butterfly_milkweed_top"
+    }
+  }
+}
