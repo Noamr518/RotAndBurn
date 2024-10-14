@@ -21,7 +21,7 @@ public class RotAndBurnClient implements ClientModInitializer {
                     if (world != null && pos != null) {
                         return BiomeColors.getGrassColor(world, pos);
                     }
-                    // Return a default greenish color if the world or pos is null, like in item form.
+                    // Return a default green color if world or pos is null
                     return 0x00FF00;
                 },
                 ModBlocks.CARDINAL_FLOWER,
