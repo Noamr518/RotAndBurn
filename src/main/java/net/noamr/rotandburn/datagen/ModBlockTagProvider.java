@@ -29,6 +29,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ASH_LAYER)
                 .add(ModBlocks.ASH_BLOCK);
 
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.BURNT_WOOD_BUTTON)
+                .add(ModBlocks.BURNT_WOOD_PLANKS)
+                .add(ModBlocks.BURNT_WOOD_PRESSURE_PLATE)
+                .add(ModBlocks.BURNT_WOOD_FENCE)
+                .add(ModBlocks.BURNT_WOOD_FENCE_GATE)
+                .add(ModBlocks.BURNT_WOOD_SLAB)
+                .add(ModBlocks.BURNT_WOOD_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.PLANKS).add(ModBlocks.BURNT_WOOD_PLANKS);
+
         getOrCreateTagBuilder(BlockTags.BASE_STONE_OVERWORLD)
                 .add(ModBlocks.SHALE)
                 .add(ModBlocks.SHALE_FOSSIL);

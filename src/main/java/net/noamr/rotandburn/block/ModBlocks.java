@@ -22,8 +22,8 @@ import java.util.Set;
 
 public class ModBlocks {
     //Blocks:
-    public static final Block SHALE = registerBlock("shale", new Block(AbstractBlock.Settings.create().strength(1.0f).requiresTool().sounds(BlockSoundGroup.PACKED_MUD).mapColor(MapColor.DEEPSLATE_GRAY)));
-    public static final Block SHALE_FOSSIL = registerBlock("shale_fossil", new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.MUD_BRICKS).mapColor(MapColor.DEEPSLATE_GRAY)));
+    public static final Block SHALE = registerBlock("shale", new Block(AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.PACKED_MUD).mapColor(MapColor.DEEPSLATE_GRAY)));
+    public static final Block SHALE_FOSSIL = registerBlock("shale_fossil", new Block(AbstractBlock.Settings.create().strength(2.5f).requiresTool().sounds(BlockSoundGroup.MUD_BRICKS).mapColor(MapColor.DEEPSLATE_GRAY)));
     public static final Block SALT_BLOCK = registerBlock("salt_block", new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.SUSPICIOUS_SAND).mapColor(MapColor.WHITE)));
     public static final Block ASH_BLOCK = registerBlock("ash_block", new FallingBlock(AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.SAND).mapColor(MapColor.LIGHT_GRAY)) {
         @Override

@@ -30,8 +30,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 3.0,
+                      "count": 1.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -50,8 +49,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 6.0,
+                      "count": 2.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -70,8 +68,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 9.0,
+                      "count": 3.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -90,8 +87,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 12.0,
+                      "count": 4.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -110,8 +106,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 15.0,
+                      "count": 5.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -130,8 +125,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 18.0,
+                      "count": 6.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -150,8 +144,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 21.0,
+                      "count": 7.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -170,8 +163,7 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
-                      "count": 24.0,
+                      "count": 8.0,
                       "function": "minecraft:set_count"
                     }
                   ],
@@ -213,7 +205,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 1.0,
                       "function": "minecraft:set_count"
                     }
@@ -233,7 +224,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 2.0,
                       "function": "minecraft:set_count"
                     }
@@ -253,7 +243,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 3.0,
                       "function": "minecraft:set_count"
                     }
@@ -273,7 +262,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 4.0,
                       "function": "minecraft:set_count"
                     }
@@ -293,7 +281,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 5.0,
                       "function": "minecraft:set_count"
                     }
@@ -313,7 +300,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 6.0,
                       "function": "minecraft:set_count"
                     }
@@ -333,7 +319,6 @@
                   ],
                   "functions": [
                     {
-                      "add": false,
                       "count": 7.0,
                       "function": "minecraft:set_count"
                     }
