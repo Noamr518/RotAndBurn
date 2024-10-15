@@ -59,6 +59,7 @@ public class ModBlocks {
     public static final Block INDIAN_PAINTBRUSH = registerBlock("indian_paintbrush", new FlowerBlock(StatusEffects.RESISTANCE, 20f, AbstractBlock.Settings.create().mapColor(MapColor.RED).noCollision().offset(AbstractBlock.OffsetType.XZ).pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.GRASS)));
     public static final Block THISTLE = registerBlock("thistle", new ThistleBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PURPLE).noCollision().offset(AbstractBlock.OffsetType.XZ).pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.SWEET_BERRY_BUSH)));
     public static final Block BLUEBERRY_BUSH = registerBlock("blueberry_bush", new BlueberryBushBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PURPLE).noCollision().offset(AbstractBlock.OffsetType.XZ).pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.SWEET_BERRY_BUSH)));
+    public static final Block BROADLEAF_PLANTAIN = registerBlock("broadleaf_plantain", new ShortPlantBlock(AbstractBlock.Settings.create().mapColor(MapColor.EMERALD_GREEN).noCollision().offset(AbstractBlock.OffsetType.XZ).pistonBehavior(PistonBehavior.DESTROY).sounds(BlockSoundGroup.SWEET_BERRY_BUSH).replaceable()));
 
     public static final Set<Block> MOD_TRANS_BLOCKS = Set.of(
             CARDINAL_FLOWER,
@@ -68,7 +69,8 @@ public class ModBlocks {
             INDIAN_PAINTBRUSH,
             THISTLE,
             BUTTERFLY_MILKWEED,
-            BLUEBERRY_BUSH
+            BLUEBERRY_BUSH,
+            BROADLEAF_PLANTAIN
     );
 
     private static Block registerBlock(String name, Block block){

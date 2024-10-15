@@ -30,6 +30,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 1.0,
                       "function": "minecraft:set_count"
                     }
@@ -49,6 +50,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 2.0,
                       "function": "minecraft:set_count"
                     }
@@ -68,6 +70,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 3.0,
                       "function": "minecraft:set_count"
                     }
@@ -87,6 +90,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 4.0,
                       "function": "minecraft:set_count"
                     }
@@ -106,6 +110,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 5.0,
                       "function": "minecraft:set_count"
                     }
@@ -125,6 +130,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 6.0,
                       "function": "minecraft:set_count"
                     }
@@ -144,6 +150,7 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 7.0,
                       "function": "minecraft:set_count"
                     }
@@ -163,171 +170,12 @@
                   ],
                   "functions": [
                     {
+                      "add": false,
                       "count": 8.0,
                       "function": "minecraft:set_count"
                     }
                   ],
                   "name": "rotandburn:ash"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                      "enchantments": [
-                        {
-                          "enchantment": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:alternatives",
-              "children": [
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "1"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 1.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "2"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 2.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "3"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 3.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "4"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 4.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "5"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 5.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "6"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 6.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "block": "rotandburn:ash_layer",
-                      "condition": "minecraft:block_state_property",
-                      "properties": {
-                        "layers": "7"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "count": 7.0,
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "name": "rotandburn:ash_layer"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "rotandburn:ash_layer_block"
                 }
               ]
             }
@@ -337,5 +185,6 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/snow"
+  "random_sequence": "rotandburn:blocks/ash_layer"
 }
+

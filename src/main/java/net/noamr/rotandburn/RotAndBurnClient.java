@@ -27,7 +27,8 @@ public class RotAndBurnClient implements ClientModInitializer {
                 ModBlocks.CARDINAL_FLOWER,
                 ModBlocks.GOLDENROD,
                 ModBlocks.INDIAN_PAINTBRUSH,
-                ModBlocks.BUTTERFLY_MILKWEED
+                ModBlocks.BUTTERFLY_MILKWEED,
+                ModBlocks.BROADLEAF_PLANTAIN
         );
     }
 
