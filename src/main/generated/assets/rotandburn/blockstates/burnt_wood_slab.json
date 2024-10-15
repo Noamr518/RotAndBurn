@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rotandburn:block/burnt_wood_slab"
+    },
+    "type=double": {
+      "model": "rotandburn:block/burnt_wood_planks"
+    },
+    "type=top": {
+      "model": "rotandburn:block/burnt_wood_slab_top"
+    }
+  }
+}

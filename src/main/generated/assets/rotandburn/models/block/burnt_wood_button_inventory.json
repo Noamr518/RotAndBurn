@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "rotandburn:block/burnt_wood_planks"
+  }
+}

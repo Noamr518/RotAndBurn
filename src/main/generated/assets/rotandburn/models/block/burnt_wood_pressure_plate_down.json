@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "rotandburn:block/burnt_wood_planks"
+  }
+}
