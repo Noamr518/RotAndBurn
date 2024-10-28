@@ -1,6 +1,18 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "rotandburn:block/yellow_swan_orchid",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "rotandburn:block/yellow_swan_orchid",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rotandburn:block/yellow_swan_orchid",
+      "y": 270
+    },
+    "facing=west": {
       "model": "rotandburn:block/yellow_swan_orchid"
     }
   }

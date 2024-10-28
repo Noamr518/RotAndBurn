@@ -25,6 +25,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BUTTERFLY_MILKWEED);
                         entries.add(ModItems.BLUEBERRY);
                         entries.add(ModBlocks.BLUEBERRY_BUSH);
+                        entries.add(ModBlocks.BROADLEAF_PLANTAIN);
+                        entries.add(ModBlocks.TRIM_GRASS);
+                        entries.add(ModBlocks.SHRUB);
+                        entries.add(ModBlocks.GRASS_CARPET);
                     }).build());
 
     public static final ItemGroup INGREDIENTS = Registry.register(Registries.ITEM_GROUP, Identifier.of(RotAndBurn.MOD_ID, "rot_and_burn_ingredients"),

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "rotandburn:item/broadleaf_plantain"
+    "layer0": "rotandburn:item/trim_grass"
   }
 }

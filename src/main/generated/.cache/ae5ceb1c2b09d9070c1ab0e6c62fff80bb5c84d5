@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-14T13:50:19.2987004	Rot and Burn/Tags for minecraft:block
+// 1.21.1	2024-10-27T22:32:18.2392989	Rot and Burn/Tags for minecraft:block
 1f2dfd72efa45f2e342c0a1553392494a76c57ac data\minecraft\tags\block\dirt.json
 af235e27907bd53a5d003968a19395599327e1ce data\minecraft\tags\block\buttons.json
 5f7943e4b85a258b2b41accbe673177fb1697dde data\minecraft\tags\block\tall_flowers.json
@@ -11,7 +11,7 @@ be21c37fe1b599104d65764e122b7fbc91b48193 data\minecraft\tags\block\needs_stone_t
 6c0b7e3b1fd754900456bdf4152ca41de21e88ee data\minecraft\tags\block\mineable\pickaxe.json
 ddc5249e72ab76a7087bfe19ec6d91ab370bbf30 data\minecraft\tags\block\wooden_fences.json
 b623a70fc3c2f7c1c9c087ba54d797fe5ba069e5 data\minecraft\tags\block\base_stone_overworld.json
-ddc5249e72ab76a7087bfe19ec6d91ab370bbf30 data\minecraft\tags\block\fences.json
 5dce6de5562fea1ccc83207c0e817e0dccbf9145 data\minecraft\tags\block\fence_gates.json
+ddc5249e72ab76a7087bfe19ec6d91ab370bbf30 data\minecraft\tags\block\fences.json
 715bc9b263d83885d566fb3416c7974c65fa6d09 data\minecraft\tags\block\fall_damage_resetting.json
 cabef2afe654bac4af37a31ab2fa189607f8f54b data\minecraft\tags\block\mineable\axe.json
