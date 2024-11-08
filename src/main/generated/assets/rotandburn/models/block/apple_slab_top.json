@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "rotandburn:block/apple_planks",
+    "side": "rotandburn:block/apple_planks",
+    "top": "rotandburn:block/apple_planks"
+  }
+}

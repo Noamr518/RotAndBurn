@@ -1,0 +1,9 @@
+{
+  "asset_name": "garnet",
+  "description": {
+    "color": "#C01D88",
+    "translate": "trim_material.rotandburn.garnet"
+  },
+  "ingredient": "rotandburn:garnet",
+  "item_model_index": 1.0
+}

@@ -1,0 +1,8 @@
+{
+  "asset_id": "rotandburn:ruin",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.rotandburn.ruin"
+  },
+  "template_item": "rotandburn:ruin_trim"
+}
