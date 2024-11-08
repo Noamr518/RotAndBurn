@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+    "model": "rotandburn:block/tall_plains_grass_bottom"},
+    "half=upper": [
+      {"model": "rotandburn:block/tall_plains_grass_top", "weight": 3},
+      {"model": "rotandburn:block/tall_plains_grass_top1", "weight": 1}
+    ]
+  }
+}

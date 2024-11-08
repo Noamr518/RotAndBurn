@@ -11,7 +11,13 @@
   "item.rotandburn.blueberry": "Blueberries",
   "item.rotandburn.blueberry_pie": "Blueberry Pie",
   "item.rotandburn.flame_paste": "Flame Paste",
+  "item.rotandburn.four_leaf_clover": "Four Leaf Clover",
+  "item.rotandburn.garnet": "Garnet",
 
+  "item.rotandburn.ruin_trim": "Smithing Template",
+
+  "trim_material.rotandburn.garnet": "Garnet",
+  "trim_pattern.rotandburn.ruin": "Ruin Armor Trim",
 
   "block.rotandburn.shale": "Shale",
   "block.rotandburn.shale_fossil": "Shale Fossil",
@@ -38,6 +44,38 @@
   "block.rotandburn.trim_grass": "Trim Grass",
   "block.rotandburn.shrub": "Shrub",
   "block.rotandburn.grass_carpet": "Grass Carpet",
+  "block.rotandburn.ivy": "Ivy",
+  "block.rotandburn.poison_ivy": "Poison Ivy",
+  "block.rotandburn.withered_ivy": "Withered Ivy",
+  "block.rotandburn.marigold": "Marigold",
+  "block.rotandburn.large_bush_grass": "Large Bush Grass",
+  "block.rotandburn.dune_grass": "Dune Grass",
+  "block.rotandburn.bushy_fern": "Bushy Fern",
+
+  "block.rotandburn.burnt_log": "Burnt Log",
+  "block.rotandburn.stripped_burnt_log": "Stripped Burnt Log",
+  "block.rotandburn.burnt_wood": "Burnt Wood",
+  "block.rotandburn.stripped_burnt_wood": "Stripped Burnt Wood",
+  "block.rotandburn.apple_planks": "Apple Planks",
+  "block.rotandburn.apple_log": "Apple Log",
+  "block.rotandburn.stripped_apple_log": "Stripped Apple Log",
+  "block.rotandburn.apple_wood": "Apple Wood",
+  "block.rotandburn.stripped_apple_wood": "Stripped Apple Wood",
+  "block.rotandburn.apple_leaves": "Apple Leaves",
+  "block.rotandburn.apple_stairs": "Apple Stairs",
+  "block.rotandburn.apple_slab": "Apple Slab",
+  "block.rotandburn.apple_pressure_plate": "Apple Pressure Plate",
+  "block.rotandburn.apple_button": "Apple Button",
+  "block.rotandburn.apple_fence": "Apple Fence",
+  "block.rotandburn.apple_fence_gate": "Apple Fence Gate",
+  "block.rotandburn.apple_door": "Apple Door",
+  "block.rotandburn.apple_trapdoor": "Apple Trapdoor",
+  "block.rotandburn.burnt_leaves": "Burnt Leaves",
+
+  "block.rotandburn.clover": "Clover",
+  "block.rotandburn.tall_plains_grass": "Tall Plains Grass",
+
+
 
 
   "block.rotandburn.modeltest": "test model_001",

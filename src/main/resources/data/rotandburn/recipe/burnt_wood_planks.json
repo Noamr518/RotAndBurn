@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "rotandburn:burnt_logs"
+    }
+  ],
+  "result": {
+    "id": "minecraft:burnt_wood_planks",
+    "count": 4
+  }
+}

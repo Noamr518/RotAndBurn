@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "rotandburn",
-	"version": "Alpha 1.1.9",
+	"version": "0.3.1",
 	"name": "Rot and Burn",
-	"description": "Mod that aims to make the minecraft world feel more lived in and dynamic",
+	"description": "Mod that aims to make the minecraft world feel more full and dynamic",
 	"authors": [
 		"Noamr"
 	],

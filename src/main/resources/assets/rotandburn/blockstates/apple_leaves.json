@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "rotandburn:block/apple_leaves", "weight": 1 },
+      {"model": "rotandburn:block/apple_leaves0", "weight": 2 },
+      {"model": "rotandburn:block/apple_leaves1", "weight": 1 },
+      {"model": "rotandburn:block/apple_leaves2", "weight": 1 }
+      ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rotandburn:block/burnt_log", "x": 90, "y": 90
+    },
+    "axis=y": {
+      "model": "rotandburn:block/burnt_log"
+    },
+    "axis=z":{
+      "model": "rotandburn:block/burnt_log", "x": 90
+    }
+  }
+}

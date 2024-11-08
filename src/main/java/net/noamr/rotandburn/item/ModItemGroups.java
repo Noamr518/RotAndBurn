@@ -23,12 +23,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INDIAN_PAINTBRUSH);
                         entries.add(ModBlocks.THISTLE);
                         entries.add(ModBlocks.BUTTERFLY_MILKWEED);
-                        entries.add(ModItems.BLUEBERRY);
                         entries.add(ModBlocks.BLUEBERRY_BUSH);
                         entries.add(ModBlocks.BROADLEAF_PLANTAIN);
                         entries.add(ModBlocks.TRIM_GRASS);
-                        entries.add(ModBlocks.SHRUB);
                         entries.add(ModBlocks.GRASS_CARPET);
+                        entries.add(ModBlocks.SHRUB);
+                        entries.add(ModBlocks.IVY);
+                        entries.add(ModBlocks.POISON_IVY);
+                        entries.add(ModBlocks.WITHERED_IVY);
+                        entries.add(ModBlocks.APPLE_LEAVES);
+                        entries.add(ModBlocks.CLOVER);
+                        entries.add(ModItems.FOUR_LEAF_CLOVER);
+                        entries.add(ModBlocks.TALL_PLAINS_GRASS);
+                        entries.add(ModBlocks.BURNT_LEAVES);
+                        entries.add(ModBlocks.MARIGOLD);
+                        entries.add(ModBlocks.LARGE_BUSH_GRASS);
+                        entries.add(ModBlocks.DUNE_GRASS);
+                        entries.add(ModBlocks.BUSHY_FERN);
+
                     }).build());
 
     public static final ItemGroup INGREDIENTS = Registry.register(Registries.ITEM_GROUP, Identifier.of(RotAndBurn.MOD_ID, "rot_and_burn_ingredients"),
@@ -44,6 +56,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LAPIS_DUST);
                         entries.add(ModItems.YELLOW_OCHRE);
                         entries.add(ModItems.FLAME_PASTE);
+                        entries.add(ModItems.GARNET);
+                        entries.add(ModItems.RUIN_TRIM);
                     }).build());
 
     public static final ItemGroup BLOCKS = Registry.register(Registries.ITEM_GROUP, Identifier.of(RotAndBurn.MOD_ID, "rot_and_burn_blocks"),
@@ -56,6 +70,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SHALE);
                         entries.add(ModBlocks.SHALE_FOSSIL);
                         entries.add(ModBlocks.YELLOW_EARTH);
+                        entries.add(ModBlocks.BURNT_LOG);
+                        entries.add(ModBlocks.BURNT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BURNT_LOG);
+                        entries.add(ModBlocks.STRIPPED_BURNT_WOOD);
                         entries.add(ModBlocks.BURNT_WOOD_PLANKS);
                         entries.add(ModBlocks.BURNT_WOOD_STAIRS);
                         entries.add(ModBlocks.BURNT_WOOD_SLAB);
@@ -63,6 +81,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BURNT_WOOD_FENCE_GATE);
                         entries.add(ModBlocks.BURNT_WOOD_PRESSURE_PLATE);
                         entries.add(ModBlocks.BURNT_WOOD_BUTTON);
+                        entries.add(ModBlocks.APPLE_LOG);
+                        entries.add(ModBlocks.APPLE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_APPLE_LOG);
+                        entries.add(ModBlocks.STRIPPED_APPLE_WOOD);
+                        entries.add(ModBlocks.APPLE_PLANKS);
+                        entries.add(ModBlocks.APPLE_STAIRS);
+                        entries.add(ModBlocks.APPLE_SLAB);
+                        entries.add(ModBlocks.APPLE_FENCE);
+                        entries.add(ModBlocks.APPLE_FENCE_GATE);
+                        entries.add(ModBlocks.APPLE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.APPLE_BUTTON);
+                        entries.add(ModBlocks.APPLE_DOOR);
+                        entries.add(ModBlocks.APPLE_TRAPDOOR);
 
                     }).build());
 

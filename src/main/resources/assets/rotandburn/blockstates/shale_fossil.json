@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "rotandburn:block/shale_fossil"
-    }
+    "": [
+      {"model": "rotandburn:block/shale_fossil", "y": 0},
+      {"model": "rotandburn:block/shale_fossil", "y": 0}
+    ]
   }
 }

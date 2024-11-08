@@ -6,6 +6,21 @@
     "rotandburn:burnt_wood_fence",
     "rotandburn:burnt_wood_fence_gate",
     "rotandburn:burnt_wood_slab",
-    "rotandburn:burnt_wood_stairs"
+    "rotandburn:burnt_wood_stairs",
+    "rotandburn:burnt_log",
+    "rotandburn:burnt_wood",
+    "rotandburn:stripped_burnt_log",
+    "rotandburn:stripped_burnt_wood",
+    "rotandburn:apple_log",
+    "rotandburn:apple_wood",
+    "rotandburn:stripped_apple_log",
+    "rotandburn:stripped_apple_wood",
+    "rotandburn:apple_slab",
+    "rotandburn:apple_stairs",
+    "rotandburn:apple_fence",
+    "rotandburn:apple_fence_gate",
+    "rotandburn:apple_button",
+    "rotandburn:apple_pressure_plate",
+    "rotandburn:shrub"
   ]
 }

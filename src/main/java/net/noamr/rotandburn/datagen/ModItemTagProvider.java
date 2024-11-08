@@ -18,6 +18,43 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.BURNT_WOOD_PLANKS.asItem())
+                .add(ModBlocks.APPLE_PLANKS.asItem());
+        getOrCreateTagBuilder(ItemTags.DIRT)
+                .add(ModBlocks.YELLOW_EARTH.asItem());
+        getOrCreateTagBuilder(ItemTags.FOX_FOOD)
+                .add(ModItems.BLUEBERRY);
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.APPLE_LOG.asItem())
+                .add(ModBlocks.APPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_APPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_APPLE_WOOD.asItem());
 
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.GARNET);
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.RUIN_TRIM);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.RUIN_TRIM);
+
+        getOrCreateTagBuilder(ItemTags.PARROT_FOOD)
+                .add(ModItems.BLUEBERRY);
+
+        getOrCreateTagBuilder(ModTags.Items.APPLE_LOGS)
+                .add(ModBlocks.APPLE_LOG.asItem())
+                .add(ModBlocks.APPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_APPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_APPLE_WOOD.asItem());
+
+        getOrCreateTagBuilder(ModTags.Items.BURNT_LOGS)
+                .add(ModBlocks.BURNT_LOG.asItem())
+                .add(ModBlocks.BURNT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_BURNT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_BURNT_WOOD.asItem());
+
+        getOrCreateTagBuilder(ModTags.Items.BURNT_BLOCKS)
+                .addTag(ModTags.Items.BURNT_LOGS)
+                .add(ModBlocks.BURNT_LEAVES.asItem());
     }
 }

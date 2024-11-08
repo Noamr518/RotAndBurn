@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "rotandburn:poison_ivy" },
+    { "item": "minecraft:wither_rose" }
+  ],
+  "result": {
+    "id": "rotandburn:withered_ivy",
+    "count": 3
+  }
+}

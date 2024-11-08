@@ -1,0 +1,57 @@
+{
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "minecraft:block/lily_pad",
+		"texture": "minecraft:block/lily_pad"
+	},
+	"elements": [
+		{
+			"from": [0, 0.25, 0],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, -12, 5],
+			"to": [8, 0, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -12, 5]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"east": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"south": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"west": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"up": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"down": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [5, -12, 8],
+			"to": [11, 0, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -6, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"east": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"south": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"west": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"up": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"down": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [5, -12, 8],
+			"to": [11, 0, 8],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, -6, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"east": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"south": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"west": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"up": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"},
+				"down": {"uv": [7.5, 0, 10.5, 6], "texture": "#texture"}
+			}
+		}
+	]
+}

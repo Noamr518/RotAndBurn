@@ -1,1 +1,12 @@
-// 1.21.1	2024-10-27T22:32:18.2402994	Rot and Burn/Tags for minecraft:item
+// 1.21.1	2024-11-07T22:46:41.1495136	Rot and Burn/Tags for minecraft:item
+8fce4aec872e7581d6d6f4ae6d3539a09c81ca23 data\rotandburn\tags\item\burnt_logs.json
+a242fd7419c135e48e49d15b483a28efd8b3143a data\minecraft\tags\item\logs_that_burn.json
+497d4205b6f265e921d5587d5cc93126c17536f2 data\minecraft\tags\item\planks.json
+1f2dfd72efa45f2e342c0a1553392494a76c57ac data\minecraft\tags\item\dirt.json
+05482879f07d55e6cc9e96c1150901477bc31b04 data\minecraft\tags\item\trimmable_armor.json
+58db29d0de80718c84b892e71a1c8973d342d0f4 data\minecraft\tags\item\trim_materials.json
+a242fd7419c135e48e49d15b483a28efd8b3143a data\rotandburn\tags\item\apple_logs.json
+d0e37f90144a9128daff962e08da92dafba4b8f5 data\minecraft\tags\item\parrot_food.json
+70dd1756d606d52b97c7e9b00466c0736cd14586 data\rotandburn\tags\item\burnt_blocks.json
+d0e37f90144a9128daff962e08da92dafba4b8f5 data\minecraft\tags\item\fox_food.json
+05482879f07d55e6cc9e96c1150901477bc31b04 data\minecraft\tags\item\trim_templates.json

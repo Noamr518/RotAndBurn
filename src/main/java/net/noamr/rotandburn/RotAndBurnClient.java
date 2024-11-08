@@ -22,7 +22,7 @@ public class RotAndBurnClient implements ClientModInitializer {
                         return BiomeColors.getGrassColor(world, pos);
                     }
                     // Return a default green color if world or pos is null
-                    return 0x00FF00;
+                    return 0x00CCEE;
                 },
                 ModBlocks.CARDINAL_FLOWER,
                 ModBlocks.GOLDENROD,
@@ -31,7 +31,12 @@ public class RotAndBurnClient implements ClientModInitializer {
                 ModBlocks.BROADLEAF_PLANTAIN,
                 ModBlocks.TRIM_GRASS,
                 ModBlocks.SHRUB,
-                ModBlocks.GRASS_CARPET
+                ModBlocks.GRASS_CARPET,
+                ModBlocks.IVY,
+                ModBlocks.POISON_IVY,
+                ModBlocks.CLOVER,
+                ModBlocks.LARGE_BUSH_GRASS,
+                ModBlocks.BUSHY_FERN
         );
     }
 

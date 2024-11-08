@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rotandburn:block/stripped_burnt_log_top",
+    "side": "rotandburn:block/stripped_burnt_log"
+  }
+}
